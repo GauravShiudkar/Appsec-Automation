@@ -27,13 +27,18 @@ It also identifies **outdated or vulnerable dependencies** using OSV and npm dat
 pip install playwright requests
 playwright install
 playwright install chromium
+```
 
 ## ▶️ Usage
 Crawl all libraries from a website
+```bash
 python crawl_detect_libs_deeper.py
+```
 
 Detect vulnerable and outdated libraries
+```bash
 python vulnlibs_detect.py
+```
 
 ---
 
