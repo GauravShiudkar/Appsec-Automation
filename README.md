@@ -12,7 +12,8 @@ requests (for querying npm + OSV databases)
 pip install playwright requests
 playwright install
 playwright install chromium
-python crawl_detect_libs_deeper.py
+python crawl_detect_libs_deeper.py (Tp crawl all libraries from website)
+python vulnlibs_detect.py (TO find out vulnerable and outdated libraries)
 
 3.It work like:
 You will be prompted for:
