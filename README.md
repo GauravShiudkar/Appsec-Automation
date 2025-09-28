@@ -54,7 +54,7 @@ Save results into findings.csv
 
 ---
 
-🚀 HTTP Security Headers Scanner
+# 🚀 HTTP Security Headers Scanner
 
 A Python script to automatically check HTTP security headers for pre-login and post-login pages.
 It identifies missing or misconfigured headers and suggests correct values to improve web application security.
@@ -88,14 +88,17 @@ playwright (optional for post-login crawling)
 Chromium (installed via Playwright if using post-login crawling)
 
 ⚡ Installation
+```bash
 pip install requests openpyxl colorama playwright
 playwright install
 playwright install chromium
+```
 
 ▶️ Usage
 Pre-login header scan
+```bash
 python headers_scanner.py
-
+```
 
 Choose Pre-login when prompted
 
@@ -106,8 +109,9 @@ Type done when finished
 Check results in headers_report.xlsx
 
 Post-login header scan
+```bash
 python headers_scanner.py
-
+```
 
 Choose Post-login when prompted
 
