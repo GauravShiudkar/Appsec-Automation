@@ -59,7 +59,7 @@ Save results into findings.csv
 A Python script to automatically check HTTP security headers for pre-login and post-login pages.
 It identifies missing or misconfigured headers and suggests correct values to improve web application security.
 
-✨ Features
+## ✨ Features
 
 🌐 Crawl websites and analyze both pre-login and post-login pages
 
@@ -71,7 +71,7 @@ It identifies missing or misconfigured headers and suggests correct values to im
 
 🖥️ CLI interface with user-friendly prompts
 
-📦 Requirements
+## 📦 Requirements
 
 - Python 3.8+
 - pip (comes with Python)
@@ -81,14 +81,14 @@ It identifies missing or misconfigured headers and suggests correct values to im
 - playwright (optional for post-login crawling)
 - Chromium (installed via Playwright if using post-login crawling)
 
-⚡ Installation
+## ⚡ Installation
 ```bash
 pip install requests openpyxl colorama playwright
 playwright install
 playwright install chromium
 ```
 
-▶️ Usage
+## ▶️ Usage
 Pre-login header scan
 ```bash
 python headers_scanner.py
@@ -110,7 +110,7 @@ python headers_scanner.py
 - Script will crawl post-login links and check headers
 - Results are saved in headers_report.xlsx
 
-🛠️ How it works
+## 🛠️ How it works
 
 - Script prompts for scan type: Pre-login or Post-login
 - Pre-login: fetches headers for given URLs
@@ -130,7 +130,7 @@ python headers_scanner.py
 - Yellow = Misconfigured
 - Red = Missing
 
-✅ Output
+## ✅ Output
 - headers_report.xlsx
 - Columns: URL, each HTTP header, Suggested Correct Values
 - Misconfigured/missing headers are highlighted in color
